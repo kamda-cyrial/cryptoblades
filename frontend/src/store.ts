@@ -299,10 +299,6 @@ export function createStore(web3: Web3) {
       getIsInCombat(state: IState): boolean {
         return state.isInCombat;
       },
-
-      getWalletAddress(state): string {
-        return state.defaultAccount || '';
-      },
     },
 
     mutations: {
